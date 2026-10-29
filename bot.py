@@ -16,16 +16,16 @@ from telegram.ext import (
 )
 
 # ============================================================
-#  ⚙️  CONFIG  —  এখানে আপনার তথ্যগুলো বসানো আছে
+#  ⚙️  CONFIG  —  আপনার তথ্যগুলো বসানো আছে
 # ============================================================
 
-# ১. ⚠️ এখানে BotFather থেকে পাওয়া আপনার আসল টোকেনটি বসান (কোটেশন চিহ্নের ভেতরে)
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+# ১. আপনার Bot Token (বসানো হয়েছে)
+BOT_TOKEN = "8698049283:AAHUAeKSaUDujfZ2fPE3AqcLwT9LHQZ0Xwk"
 
-# ২. আপনার Render এর লিংক (এটি বসানো হয়ে গেছে)
+# ২. আপনার Render এর লিংক (বসানো হয়েছে)
 WEBHOOK_URL = "https://newxbot-nxft.onrender.com"
 
-# ৩. আপনার Database URL (এটি বসানো হয়ে গেছে)
+# ৩. আপনার Database URL (বসানো হয়েছে)
 DATABASE_URL = "postgresql://vanilla_db_k7ms_user:TT6sdisC9mPKGsQunw8QVd2qylmoEdR5@dpg-dbhkvd8n74is73ear5qg-a/vanilla_db_k7ms"
 
 # ============================================================

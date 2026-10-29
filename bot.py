@@ -16,17 +16,17 @@ from telegram.ext import (
 )
 
 # ============================================================
-#  ⚙️  CONFIG  —  এখানে আপনার তথ্যগুলো বসান
+#  ⚙️  CONFIG  —  এখানে আপনার তথ্যগুলো বসানো আছে
 # ============================================================
 
-# ১. এখানে BotFather থেকে পাওয়া আপনার টোকেনটি বসান (কোটেশন চিহ্নের ভেতরে)
+# ১. ⚠️ এখানে BotFather থেকে পাওয়া আপনার আসল টোকেনটি বসান (কোটেশন চিহ্নের ভেতরে)
 BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 
-# ২. এখানে Render এর আপনার অ্যাপের লিংকটি বসান (শেষে / দিবেন না)
-WEBHOOK_URL = "YOUR_RENDER_URL_HERE"
+# ২. আপনার Render এর লিংক (এটি বসানো হয়ে গেছে)
+WEBHOOK_URL = "https://newxbot-nxft.onrender.com"
 
-# ৩. এখানে Render PostgreSQL থেকে কপি করা Internal Database URL বসান
-DATABASE_URL = "YOUR_DATABASE_URL_HERE"
+# ৩. আপনার Database URL (এটি বসানো হয়ে গেছে)
+DATABASE_URL = "postgresql://vanilla_db_k7ms_user:TT6sdisC9mPKGsQunw8QVd2qylmoEdR5@dpg-dbhkvd8n74is73ear5qg-a/vanilla_db_k7ms"
 
 # ============================================================
 PORT = int(os.environ.get("PORT", 10000))
